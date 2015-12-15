@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eleven Weather</title>
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<main>
+		<div id="today">
+			<p id="location"></p>
+			<div class="day">
+				<p>Today</p>
+			</div>
+			<div class="weather-img">
+				<img src="http://icons-ak.wxug.com/i/c/k/partlycloudy.gif" alt="weather image">	
+			</div>
+			<div class="temp">
+				<p class="degrees"></p>
+				<p id="conditions"></p>
+			</div>
+		</div>
+		<div class="forecast">
+			<div class="forecast-day" id="todayPlus1">
+				<div class="weather-img">
+					<img src="http://icons-ak.wxug.com/i/c/k/partlycloudy.gif" alt="weather image">	
+				</div>
+				<div class="temp">
+					<p></p>
+				</div>
+				<div class="day">
+					<p></p>
+				</div>
+			</div>
+			<div class="forecast-day" id="todayPlus2">
+				<div class="weather-img">
+					<img src="http://icons-ak.wxug.com/i/c/k/partlycloudy.gif" alt="weather image">	
+				</div>
+				<div class="temp">
+					<p></p>
+				</div>
+				<div class="day">
+					<p></p>
+				</div>
+			</div>
+			<div class="forecast-day" id="todayPlus3">
+				<div class="weather-img">
+					<img src="http://icons-ak.wxug.com/i/c/k/partlycloudy.gif" alt="weather image">	
+				</div>
+				<div class="temp">
+					<p></p>
+				</div>
+				<div class="day">
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+		<div id="input-change">
+			<p>Zip Code</p>
+			<input type="text" id="zipCode" name="zipcode">
+			<button class="submitZip">Change</button>
+		</div>
+	</main>
+
+	<footer>
+		<a href="http://www.wunderground.com/"><img src="assets/img/wu.png" alt="weather underground logo"></a>
+		<p>Powered by Weather Underground</p>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/min/functions-min.js"></script>
+</body>
+</html>
